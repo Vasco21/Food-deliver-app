@@ -23,7 +23,7 @@ import CustApp from "../../assets/images/cust-app.png";
 import RiderApp from "../../assets/images/rider-app.png";
 import RestaurantApp from "../../assets/images/restaurant-app.png";
 import Dashboard from "../../assets/images/dashboard.png";
-import Footer from "../../components/Footer/Footer";
+// import Footer from "../../components/Footer/Footer";
 import Fruits2 from "../../assets/images/fruits-2.png";
 import AppComponent from "../../components/HomeScreen/AppComponent";
 import Banner2 from "../../assets/images/banner-2.png";
@@ -230,7 +230,7 @@ function Home() {
 
         <Box className={classes.footerContainer}>
           <Box className={classes.footerWrapper}>
-            <Footer />
+            {/* <Footer /> */}
           </Box>
         </Box>
       </Box>
